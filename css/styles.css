@@ -5,14 +5,12 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #fcee21;
     color: #333;
     width: 900px;
     height: auto;
-    background-color: white;
-    font:400;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'roboto', sans-serif;
     margin: auto;
 }
@@ -23,12 +21,12 @@ footer h1 {
 }
 
 nav h1 {
-    margin-right: auto;
+    margin-right: auto ;
 }
 
 nav a,
 footer a {
-    margin-left: 20px;
+    margin-left: 30px;
     color: #7a7a7a;
     text-decoration: none;
 }
@@ -38,6 +36,7 @@ nav a:hover {
 }
 
 nav {
+    background-color: white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -47,10 +46,10 @@ nav {
 ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: auto;
 }
-p {
 
+p {
     border: none;
 }
 
@@ -59,12 +58,13 @@ nav a {
 }
 
 header h1 {
-    font-weight: 700;
-    font-size: 41px;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
 }
 
 .grande {
-    font-size: 85px;
+    font-size: 70px;
     font-family: 'coiny', cursive;
 }
 
@@ -78,32 +78,36 @@ h2, h3 {
     display: inline;
 }
 
-h3 {
+ #contacto h4 {
+    width: 70%;
+    margin: 0;
     font-size: 26px;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
-
-h2 {
-    font-weight: none;
-}
-
 .item {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     background-color: #fcee21;
+    text-align: center;
+    width: 70%;
 }
 
 aside img {
     height: auto;
-    width: 10%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
 }
 
 .titulo {
-    font-size: 35px;
+    font-size: 30px;
     margin: auto;
     padding: 10px;
 }
 
-header{
+header {
     background-color: white;
     width: auto;
     height: auto;
@@ -115,15 +119,19 @@ aside.encolumnar {
 }
 
 header img {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    margin-left: 30%;
+    margin-left: auto;
 }
 
 footer,
 main,
 header,
 aside {
+    font-size: 20px;
     width: 100%;
+    background-color: white;
 }
 
 footer {
@@ -149,18 +157,18 @@ span {
 }
 
 label {
+    font-size: 14px;
+    font-weight: bold;
     display: block;
     margin-bottom: 5px;
 }
 
-.con
-input {
-    height: 40px;
-}
+
 
 input,
 textarea {
     width: 100%;
+    margin-top: 10px;
 }
 
 form { 
@@ -168,12 +176,13 @@ form {
 }
 
 .encolumnar {
+    background-color: white;
     display: flex;
     justify-content: space-between;
-
+    border-top: 40px;
     padding: 20px;
-    margin-bottom: 30px;
     border-bottom: 0.5px solid gray;
+    
 }
 
 .boton {
@@ -198,5 +207,5 @@ section {
 }
 
 main {
-    font-size: 21px;
+    font-size: 18px;
 }
